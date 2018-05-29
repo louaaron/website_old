@@ -11,3 +11,5 @@ gem "jekyll-feed", "~> 0.9.3"
 gem "jekyll-sitemap", "~> 1.2"
 
 gem "jekyll-paginate", "~> 1.1"
+
+gem "jekyll-serve", "~> 1.0.0.rc1"
