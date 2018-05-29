@@ -13,7 +13,7 @@ description: Cornell '21 Math and CS
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars1.githubusercontent.com/u/32228191?s=400&u=1929dbf7f1ad773d9f5b98c60a430a6feb50416f&v=4
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
@@ -22,6 +22,8 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 navigation:
   - name: Blog
     url: /
+  - name: Projects
+    url: /projects
   - name: About
     url: /about
   - name: Archive
