@@ -2,7 +2,15 @@
 layout: default
 permalink: /
 ---
-
+<style>
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+</style>
 
 <div class="container">
 
@@ -72,16 +80,16 @@ permalink: /
                 <div class="row marketing">
     
                     <div class="col-lg-6">
-                        <img class="img-thumbnail" src="images/decomp.png" style="width:auto;max-height:200px;"/>
+                        <div class="vertical-center">
+                            <img class="img-thumbnail" src="images/decomp.png" style="width:auto;max-height:200px;"/>
+                        </div>
                     </div>
                     <div class="col-lg-6">
-                        <h5><span class="font-italic">(ICML 2019 Workshop, Security and Privacy of Machine Learning)</span>
+                        <h5><font size="3"></font><span class="font-italic">(ICML 2019 Workshop, Security and Privacy of Machine Learning)</span>
                             Adversarial Example Decomposition
                             [<a href="https://arxiv.org/abs/1812.01198v2">Arxiv</a>]
-                        </h5>
-                    </div>
-                    <div style="width:100%">
-                        <p><small>Horace He, <b>Aaron Lou*</b>, Qingxuan Jiang*, Isay Katsman*, Serge Belongie, Ser-Nam Lim (*equal contribution)</small></p>
+                        </font></h5>
+                        <p><font size="2">Horace He, <b>Aaron Lou*</b>, Qingxuan Jiang*, Isay Katsman*, Serge Belongie, Ser-Nam Lim (*equal contribution)</font></p>
                     </div>
                 </div>
             </div>
