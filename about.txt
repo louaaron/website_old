@@ -1,0 +1,11 @@
+---
+layout: page
+title: About
+permalink: /
+---
+
+I'm a junior majoring in math and computer science at Cornell University. I'm primarily interested in applications of topological and geometric methods in deep learning.
+
+### Contact me
+
+[al968@cornell.edu](mailto:al968@cornell.edu)

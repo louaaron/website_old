@@ -13,17 +13,19 @@ description: Cornell '21 Math and CS
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/32228191?s=400&u=1929dbf7f1ad773d9f5b98c60a430a6feb50416f&v=4
+avatar: /images/profile.jpg
+  
+#https://avatars1.githubusercontent.com/u/32228191?s=400&u=1929dbf7f1ad773d9f5b98c60a430a6feb50416f&v=4
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Blog
+  - name: About Me
     url: /
-  - name: About
-    url: /about
+  - name: Blog
+    url: /blog
   - name: Archive
     url: /archive
   - name: Tags
@@ -40,7 +42,7 @@ footer-links:
   linkedin: aaron-lou
 
 # Text under the icons in footer
-footer-text: © 2018 Aaron Lou
+footer-text: © 2020 Aaron Lou
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -51,7 +53,7 @@ google_analytics: UA-120354475-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: 
+url: http://aaronlou.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -63,8 +65,8 @@ baseurl:
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:title/
-paginate_path: /page:num/
+permalink: /blog/:title/
+paginate_path: /blog/page:num/
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
