@@ -6,7 +6,7 @@
 name: Aaron Lou
 
 # Short bio or description (displayed in the header)
-description: Cornell '21 Math and CS
+description: Stanford CS PhD
 
 #
 # Flags below are optional
@@ -37,7 +37,7 @@ paginate: 5
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: lou.aaron@yahoo.com
-  facebook: wereawesome2
+  # facebook: wereawesome2
   github: louaaron
   linkedin: aaron-lou
   twitter: aaron_lou
