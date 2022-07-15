@@ -6,7 +6,7 @@
 name: Aaron Lou
 
 # Short bio or description (displayed in the header)
-description: Stanford CS PhD
+# description: Stanford CS PhD
 
 #
 # Flags below are optional
@@ -14,36 +14,16 @@ description: Stanford CS PhD
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/profile.jpg
-  
-#https://avatars1.githubusercontent.com/u/32228191?s=400&u=1929dbf7f1ad773d9f5b98c60a430a6feb50416f&v=4
-
-
-# Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
-# and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
-# it from the list(Delete '- name: ' and 'url: ', too!)
-navigation:
-  - name: About Me
-    url: /
-  - name: Blog
-    url: /blog
-  - name: Archive
-    url: /archive
-  - name: Tags
-    url: /tags
-
-# Pagination
-paginate: 5
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: lou.aaron@yahoo.com
-  # facebook: wereawesome2
+  email: aaronlou@stanford.edu
   github: louaaron
   linkedin: aaron-lou
   twitter: aaron_lou
 
 # Text under the icons in footer
-footer-text: © 2021 Aaron Lou
+footer-text: © 2022 Aaron Lou
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -54,7 +34,7 @@ google_analytics: UA-120354475-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://aaronlou.com
+url: https://www.aaronlou.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)

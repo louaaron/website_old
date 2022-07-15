@@ -15,68 +15,37 @@ permalink: /
 <div class="container">
 
     <main role="main">
-
-        <!-- <div class="row" style="width:100%">
-            <div class="col-lg-12">
-                <h2>About Me</h2>
-                <hr>
+        <div id="about" class="row marketing">
+            <div class="col-lg-3">
+                <h1>Aaron Lou</h1>
+                <figure class="figure">
+                    <img src="{{ site.avatar }}"  class="figure-img rounded" alt="Me." style="max-width:200px; height: auto;">
+                </figure>
             </div>
-        </div> -->
-        <div class="col-lg-12">
-            <div id="about" class="row marketing width=100%">
+            <div class="col-lg-8 offset-lg-1">
                 <div class="row marketing">
-                    <p>I am a Computer Science PhD student at Stanford, where I am supported by a NSF Graduate Research Fellowship. Previously, I completed my undergraduate studies at Cornell, where I was advised by Professor <a href="https://www.cs.cornell.edu/~cdesa/">Chris De Sa<a> through <a href="https://cuai.github.io/">CUAI</a>.
                     <br>
-                    <br>  
-                    I'm primarily interested in applications of topological and geometric methods in deep learning.
+                    <br>
+                    <p>
+                    I am a second year computer science PhD student at Stanford University, where I am advised by <a href="https://cs.stanford.edu/~ermon/" target="_blank">Stefano Ermon</a>. My research interests lie in the field of geometric deep learning, with a particular emphasis on developing generative models for non-Euclidean geometric data.
+                    <br>
+                    <br>
+                    My research is supported by the <a href="https://www.nsfgrfp.org/" target="_blank">NSF GRFP</a>. Previously, I completed my bachelor's degree in mathematics and computer science at Cornell University, where I was advised by <a href="https://www.cs.cornell.edu/~cdesa/" target="_blank">Chris De Sa<a>.
                     </p>
                 </div>
             </div>
         </div>
-
-            <p class="row">
-            [<b>Email: </b> &nbsp al968@cornell.edu]
-            [<a href="https://scholar.google.com/citations?user=54-actIAAAAJ&hl=en&oi=sra" target="_blank">Google Scholar</a>]
-            [<a href="https://www.linkedin.com/in/aaron-lou/" target="_blank">LinkedIn</a>]
-            [<a href="https://github.com/louaaron" target="_blank">Github</a>]
-            [<a href="{{ site.baseurl }}/pdfs/CV.pdf" target="_blank">CV</a>]
-            </p>
+        <p>
+        [<b>Email:</b> &nbsp aaronlou@stanford.edu]
+        [<a href="https://scholar.google.com/citations?user=54-actIAAAAJ&hl=en&oi=sra" target="_blank">Google Scholar</a>]
+        [<a href="https://www.linkedin.com/in/aaron-lou/" target="_blank">LinkedIn</a>]
+        [<a href="https://github.com/louaaron" target="_blank">Github</a>]
+        [<a href="{{ site.baseurl }}/pdfs/CV.pdf" target="_blank">CV</a>]
+        </p>
 
 
         <div class="row marketing">
                 <!--Place holder-->
-        </div>
-        <!-- <div class="row" style="width:100%">
-            <div class="col-lg-12">
-                <h2>News</h2>
-                <hr>
-            </div>
-        </div>
-        <div class="row marketing width=100%">
-        <ul>
-            <li>Jun 2021: <a href="https://arxiv.org/abs/2107.08596" target="_blank">Equivariant Manifold Flows</a> accepted to ICML INNF+ workshop</li>
-            <li>May 2021: I graduated from Cornell!</li>
-            <li>Apr 2021: Committed to Stanford for my PhD! I also won an NSF Graduate Student Fellowship.</li>
-            <li>Dec 2020: Honorable mention in <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2021" target="_blank">CRA 2021</a></li>
-            <li>Sep 2020: <a href="https://arxiv.org/abs/2006.10254" target="_blank">Paper</a> accepted at NeurIPS 2020 and <a href="https://drive.google.com/file/d/1Ewro0Ne1tvK15nHyYopY4wZ59QTVB-1c/view" target="_blank">paper</a> accepted to NeurIPS DiffGeo4DL workshop</li>
-            <li>Aug 2020: Completed research internship at Facebook</li>
-            <li>Jul 2020: <a href="https://arxiv.org/abs/2003.00335" target="_blank">Paper</a> accepted at ICML 2020 and a <a href="https://arxiv.org/abs/2006.10254" target="_blank">spotlight</a> at INNF workshop
-            </li> -->
-            <!-- <li>Feb 2020: Won a bronze medal in ICPC North American Championship
-                [<a href="{{site.baseurl}}/blog/02_20_20/"" target="_blank">Blog Post</a>][<a href="https://www.cs.cornell.edu/information/news/newsitem11125/cornell-icpc-wins-bronze-medal-north-american-programming" target="_blank">Press Release</a>]
-            </li>
-            <li>Dec 2019: Placed top 350 in William Lowell Putnam Mathematical Competition</li>
-            <li>Oct 2019: Won first place in ICPC Greater New York Regional 
-                [<a href="https://www.cs.cornell.edu/information/news/newsitem10891/cornell-icpc-wins-greater-new-york-regional-programming-contest" target="_blank">Press Release</a>]
-            </li> -->
-            <!-- <li>Aug 2019: Completed SWE internship at Google</li> -->
-            <!-- <li>Jun 2019: <a href="https://arxiv.org/abs/1812.01198" target="_blank">Paper</a> accepted at ICML 2019 SPML workshop</li> -->
-            <!-- <li>Dec 2018: Placed top 250 in William Lowell Putnam Mathematical Competition</li> -->
-            <!-- <li>May 2018: Placed first in Cornell Freshman Mathematics Prize exam</li> -->
-        </ul>
-        </div>
-        <div class="row marketing">
-            <!--Place holder-->
         </div>
 
         <div class="row" style="width:100%">
@@ -85,6 +54,32 @@ permalink: /
                 <hr>
             </div>
         </div>
+        <div id="projects" class="row marketing text-center">
+            <div class="col-lg-6">
+                <img class="img-thumbnail" src="{{site.baseurl}}/images/papers/ngef.png" style="height:auto;max-width:250px;"/>
+            </div>
+            <div class="col-lg-6">
+                <h5 style="margin:0">Neural Geometric Embedding Flows<br>
+                    <font size="3"><em>ICML TAG Workshop 2022</em></font><br>
+                    <font size="3">[<a href="https://drive.google.com/file/d/1AZLozDp3gaTUIiJnWTMNhKChipIpgkYQ/view" target="_blank">Paper</a>]</font>
+                </font></h5>
+                <p><font size="2"><b>Aaron Lou</b>, Yang Song, Jiaming Song, Stefano Ermon</font></p>
+            </div>
+        </div>
+        <hr>
+        <div id="projects" class="row marketing text-center">
+            <div class="col-lg-6">
+                <img class="img-thumbnail" src="{{site.baseurl}}/images/papers/rresnet.png" style="height:auto;max-width:250px;"/>
+            </div>
+            <div class="col-lg-6">
+                <h5 style="margin:0">Riemannian Residual Neural Networks<br>
+                    <font size="3"><em>ICML TAG Workshop 2022</em></font><br>
+                    <font size="3">[<a href="https://drive.google.com/file/d/1yZ_uDbXNn4OfINR8LSe1WA0o5-ae4jq4/view" target="_blank">Paper</a>]</font>
+                </font></h5>
+                <p><font size="2">Isay Katsman*, Eric Chen*, Sidhanth Holalkere*, Anna Asch*, <b>Aaron Lou</b>, Ser-Nam Lim, Christopher De Sa</font></p>
+            </div>
+        </div>
+        <hr>
         <div id="projects" class="row marketing text-center">
             <div class="col-lg-6">
                 <img class="img-thumbnail" src="{{site.baseurl}}/images/papers/phdimgen.png" style="height:auto;max-width:250px;"/>
@@ -97,7 +92,8 @@ permalink: /
                 </font></h5>
                 <p><font size="2">Tolga Birdal, <b>Aaron Lou</b>, Leonidas Guibas, Umut &#350;im&#351;ekli</font></p>
             </div>
-    </div>
+        </div>
+        <hr>
         <div id="projects" class="row marketing text-center">
                 <div class="col-lg-6">
                     <img class="img-thumbnail" src="{{site.baseurl}}/images/papers/neqmode.png" style="height:auto;max-width:250px;"/>
@@ -110,6 +106,7 @@ permalink: /
                     <p><font size="2">Isay Katsman*, <b>Aaron Lou*</b>, Derek Lim*, Qingxuan Jiang*, Ser-Nam Lim, Christopher De Sa</font></p>
                 </div>
         </div>
+        <hr>
         <div id="projects" class="row marketing text-center">
                 <div class="col-lg-6">
                     <img class="img-thumbnail" src="{{site.baseurl}}/images/papers/deepmanifold.png" style="height:auto;max-width:250px;"/>
@@ -122,6 +119,7 @@ permalink: /
                     <p><font size="2"><b>Aaron Lou</b>, Maximilian Nickel, Brandon Amos</font></p>
                 </div>
         </div>
+        <hr>
         <div id="projects" class="row marketing text-center">
                 <div class="col-lg-6">
                     <img class="img-thumbnail" src="{{site.baseurl}}/images/papers/nmode.png" style="height:auto;max-width:250px;"/>
@@ -134,6 +132,7 @@ permalink: /
                     <p><font size="2"><b>Aaron Lou*</b>, Derek Lim*, Isay Katsman*, Leo Huang*, Qingxuan Jiang, Ser-Nam Lim, Christopher De Sa</font></p>
                 </div>
         </div>
+        <hr>
         <div id="projects" class="row marketing text-center">
                 <div class="col-lg-6">
                     <img class="img-thumbnail" src="{{site.baseurl}}/images/papers/frechet.png" style="height:auto;max-width:250px;"/>
@@ -146,6 +145,7 @@ permalink: /
                     <p><font size="2"><b>Aaron Lou*</b>, Isay Katsman*, Qingxuan Jiang*, Serge Belongie, Ser-Nam Lim, Christopher De Sa</font></p>
                 </div>
         </div>
+        <hr>
         <div id="projects" class="row marketing text-center">
                 <div class="col-lg-6">
                     <img class="img-thumbnail" src="{{site.baseurl}}/images/papers/decomp.jpg" style="height:auto;max-width:250px;"/>
@@ -157,88 +157,8 @@ permalink: /
                     </font></h5>
                     <p><font size="2">Horace He, <b>Aaron Lou*</b>, Qingxuan Jiang*, Isay Katsman*, Serge Belongie, Ser-Nam Lim</font></p>
                 </div>
-
-                <p style=><font size="1">(* indicates equal contribution)</font></p>
-        </div>
-        <div class="row" style="width:100%">
-            <div class="col-lg-12">
-                <h2>Industry Experience</h2>
-                <hr>
-            </div>
-        </div>
-        <div class="row text-center">
-            <div class="row marketing width=100%">
-                <div class="col-lg-6">
-                    <img class="img-thumbnail" src="{{ site.baseurl }}/images/work/fb.png"  style="width:60%;max-height:200px;max-width:200px"/>
-                </div>
-                <div class="col-lg-6">
-                    <h5>Facebook AI</h5>
-                    <p>Research Intern<br>May 2020 - Aug 2020</p>
-                    <!-- <p>Worked on developing Google Maps Incognito.</p> -->
-                </div>
-
-                <div class="col-lg-6">
-                    <img class="img-thumbnail" src="{{ site.baseurl }}/images/work/google.png"  style="width:60%;max-height:200px;max-width:200px"/>
-                </div>
-                <div class="col-lg-6">
-                    <h5>Google</h5>
-                    <p>Software Engineering Intern<br>May 2019 - Aug 2019</p>
-                    <!-- <p>Worked on developing Google Maps Incognito.</p> -->
-                </div>
-
-                <!-- <div class="col-lg-6">
-                        <img class="img-thumbnail" src="{{ site.baseurl }}/images/work/logos.png"  style="width:60%;max-height:200px;max-width:200px"/>
-                </div>
-                <div class="col-lg-6">
-                    <h5>Logos News</h5>
-                    <p>Data Scientist Intern<br>July 2018 - Sep 2018</p>
-                    <!-- <p>Developed machine learning models to extract user preferences and cluster news headlines.</p>
-                </div> -->
-            </div>
-        </div>
-            <!-- <div class="media">
-                <img class="mr-3 img-thumbnail" src="images/google-logo.jpg" alt="Generic placeholder image" style="max-height:100px">
-                <div class="media-body">
-                    <h5 class="mt-0">Software Engineer Intern</h5>
-                </div>
-            </div> -->
-
-
-        <div class="row marketing" style="width:100%">
-            <!--Place holder-->
-            <hr>
         </div>
 
-        <div id="experiences" class="row marketing">
-            <div class="row" style="width:100%">
-                <div class="col-lg-12">
-                    <h2>Activities</h2>
-                    <hr>
-                </div>
-            </div>
-        </div>
-
-        <div class="row text-center">
-            <div class="row marketing width=100%">
-                <div class="col-lg-6">
-                    <img class="img-thumbnail" src="{{ site.baseurl }}/images/work/cuvllogo.png"  style="width:60%;max-height:200px;max-width:200px"/>
-                </div>
-                <div class="col-lg-6">
-                    <h5><a href="https://cuai.github.io" target="_blank">
-                        Cornell University Artificial Intelligence</a><br></h5>
-                    <p>Co-President<br>Sept 2020 - May 2021</p>
-                    <p>Undergraduate Researcher<br>Aug 2018 - May 2021</p>
-                </div>
-
-                <div class="col-lg-6">
-                        <img class="img-thumbnail" src="{{ site.baseurl }}/images/work/icpc.png"  style="width:60%;max-height:200px;max-width:200px"/>
-                </div>
-                <div class="col-lg-6">
-                    <h5><a href="http://www.cs.cornell.edu/acm/" target="_blank">Cornell ICPC</a><br></h5>
-                    <p>Competitive Programmer<br>Aug 2018 - May 2021</p>
-                </div>
-            </div>
-        </div>
 
         <div id="experiences" class="row marketing">
             <div class="row" style="width:100%">
@@ -256,52 +176,5 @@ permalink: /
                 </ul>
             </div> 
         </div>
-
-        <!-- <div id="experiences" class="row marketing">
-            <div class="row" style="width:100%">
-                <div class="col-lg-12">
-                    <h2>What am I reading?</h2>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row marketing" style="width:100%">
-                <ul>
-                    <li><a href="https://bookstore.ams.org/gsm-33">Metric Geometry by Burago et al</a></li>
-                    <li><a href="https://www.degruyter.com/view/product/428930" target="_blank">Convex Analysis/Optimization in Hadamard Space by Bacak</a></li>
-                    <li><a href="https://www.springer.com/gp/book/9780817634902">Riemannian Geometry by do Carmo</a></li>
-                </ul>
-            </div> 
-        </div> -->
-        <!-- <div id="experiences" class="row marketing">
-            <div class="row" style="width:100%">
-                <div class="col-lg-12">
-                    <h2>Teaching</h2>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row marketing" style="width:100%">
-                <ul>
-                    <li>TA for <a href = "http://www.cs.cornell.edu/courses/cs5199/2019fa/" target="_blank">CS 5199 (Spring 2019, Fall 2019)</a></li>
-                    <li>TA for  <a href ="http://www.cs.cornell.edu/courses/cs2802/2019sp/" target="_blank">CS 2802 (Spring 2019)</a></li>
-                </ul>
-            </div>
-        </div> -->
-        <!-- <div id="experiences" class="row marketing">
-            <div class="row" style="width:100%">
-                <div class="col-lg-12">
-                    <h2>Service</h2>
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row marketing" style="width:100%">
-                <ul>
-                    <li>Reviewer for NeurIPS 2020 Workshop DiffGeo4DL</li>
-                    <li>Secondary Reviewer for NeurIPS 2020</li>
-                </ul>
-            </div>
-        </div> -->
     </main>
 </div> <!-- /container -->
